@@ -1,0 +1,14 @@
+{
+  "name": "planning-poker-backend",
+  "version": "1.0.0",
+  "description": "Backend of Planning Poker app",
+  "main": "index.js",
+  "scripts": {},
+  "author": "Jason Boyle",
+  "license": "MIT",
+  "dependencies": {
+    "graphql-cli": "^2.17.0",
+    "prisma": "^1.19.3",
+    "prisma-binding": "^2.1.6"
+  }
+}
