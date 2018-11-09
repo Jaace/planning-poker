@@ -1,0 +1,11 @@
+type Mutation {
+  PLACEHOLDER: String
+}
+type Query {
+  PLACEHOLDER: String!
+}
+
+type User {
+  id: ID!
+  name: String!
+}
