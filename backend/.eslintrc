@@ -1,0 +1,10 @@
+{
+  "extends": [
+    "formidable/configurations/es6-node",
+    "prettier"
+  ],
+  "plugins": ["prettier"],
+  "rules": {
+    "prettier/prettier": "error"
+  }
+}

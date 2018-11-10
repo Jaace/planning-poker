@@ -1,5 +1,7 @@
-require("dotenv").config();
-const createServer = require("./createServer");
+'use strict';
+
+require('dotenv').config();
+const createServer = require('./create-server');
 
 const server = createServer();
 server.start(
@@ -10,6 +12,7 @@ server.start(
     }
   },
   info => {
-    console.log(`Server is now running on http://localhost:${info.port}`);
+    // eslint-disable-next-line no-console
+    console.info(`Server is now running on http://localhost:${info.port}`);
   }
 );
