@@ -1,10 +1,10 @@
 projects:
   app:
-    schemaPath: ${env:GRAPHQL_SCHEMA}
+    schemaPath: "src/schema.graphql"
     extensions:
       endpoints:
-        default: ${env:APP_DEFAULT_ENDPOINT}
+        default: "http://localhost:4444"
   prisma:
-    schemaPath: ${env:PRISMA_GENERATED}
+    schemaPath: "src/generated/prisma.graphql"
     extensions:
       prisma: prisma.yml

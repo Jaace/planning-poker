@@ -2,3 +2,14 @@ type User {
   id: ID! @unique
   name: String!
 }
+
+type Session {
+  id: ID! @unique
+}
+
+type Issue {
+  id: ID! @unique
+  name: String!
+  description: String
+  session: Session!
+}

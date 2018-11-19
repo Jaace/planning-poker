@@ -1,0 +1,10 @@
+{
+  "extends": ["formidable/configurations/es6-react", "prettier", "prettier/react"],
+  "plugins": ["prettier"],
+  "parser": "babel-eslint",
+  "rules": {
+    "prettier/prettier": "error",
+    "react/react-in-jsx-scope": false,
+    "filenames/match-regex": false
+  }
+}

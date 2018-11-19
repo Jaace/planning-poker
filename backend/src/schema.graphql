@@ -1,8 +1,14 @@
+# import * from './generated/prisma.graphql'
 type Mutation {
   PLACEHOLDER: String
 }
 type Query {
-  PLACEHOLDER: String!
+  sessions(
+    where: SessionWhereInput
+    orderBy: SessionOrderByInput
+    skip: Int
+    first: Int
+  ): [Session]!
 }
 
 type User {
